@@ -1,10 +1,12 @@
-table {
-  width: 800px;
+table#presentation {
+  width: 600px;
+  margin: auto;
 }
 
 h1{
-  color: red;
-  margin-top: 50px;
+  padding-top: 50px;
+  color: rgb(80,80,80);
+  text-align: center;
 }
 
 html{
@@ -12,42 +14,45 @@ html{
   background-repeat: repeat;
 }
 
-div.background{
-  background: rgba(255,255,255,0.7);
-}
-
 body {
+  width: 960px;
   cursor: cell;
-}
-
-#colonegauche {
-  color: blue;
-  text-align: center;
-  width: 500px;
-}
-
-ol {
-  margin-left: 30%;
-  text-align: left;
+  background: rgba(255,255,255,0.7);
+  margin: auto;
 }
 
 #remplissagelatin {
-  font-family: "courier new";
+  font-family: "roboto";
   text-align: center;
   white-space: pre;
-  font-weight: bold;
+  color: rgb(44,44,44);
 }
 
-.menu {
+table#menu {
+  border-collapse: collapse;
   color: purple;
+  margin-bottom: 30px;
+  width: 900px;
+  margin: auto;
 }
 
-.menu td, th {
+Table#menu td, th {
   border: 1px solid;
   text-align: center;
   width: 1%;
+  padding: 8px;
+}
+
+.ifra {
+  text-align: center;
 }
 
 iframe {
   margin-top: 20px;
 }
+
+img, iframe {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+img {float: right;}
